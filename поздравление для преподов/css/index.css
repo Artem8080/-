@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    /* background: url(/img/шапка.png); */
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+}
+
+main {
+    padding: 10px 10px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-or-all__logo {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px auto;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-shell {
+    width: 25%;
+    padding: 10px 20px;
+}
+
+.card {
+    position: relative;
+    height: auto;
+    width: 100%;
+    border: 1px solid rgb(69, 69, 69);
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-text {
+    font-size: 19px;
+}
+
+.front {
+    padding: 10px 10px;
+    transition: .5s;
+    backface-visibility: hidden;
+}
+
+.card .front {
+    transform: rotateY(0);
+}
+
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    transition: .5s;
+    font-size: 19px;
+}
+
+del {
+    position: relative;
+    font-size: 19px;
+}
+
+del:before {
+	content: "";
+	border-bottom: 2px solid #106eea;
+	position: absolute;
+	top: 0;
+	left: 0;    
+	width: 100%;
+	height: calc(50% + 3px);
+}
+
+.card .front {
+    transform: rotateY(0);
+}
+
+.card .back {
+    transform: rotateY(180deg);
+}
+
+.button {
+    font-size: 19px;
+    padding: 5px 17px;
+    color: white;
+    background: #106eea;
+    margin: 0px auto 12px;
+    width: max-content;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    border: solid 4px #106eea;
+}
+
+.button:hover {
+    background: white;
+    color: #106eea;
+}
+
+/* классы появляющиеся при нажатии на кнопку */
+
+.card .Nikita-frontOn {
+    transform: rotateY(-180deg) !important;
+}
+.card .Nikita-backOn {
+    transform: rotateY(0) !important;
+}
+
+
+
+.card .Elena-frontOn {
+    transform: rotateY(-180deg) !important;
+}
+.card .Elena-backOn {
+    transform: rotateY(0) !important;
+}
+
+
+
+.card .Marina-frontOn {
+    transform: rotateY(-180deg) !important;
+}
+.card .Marina-backOn {
+    transform: rotateY(0) !important;
+}
+
+
+
+.card .Daria-frontOn {
+    transform: rotateY(-180deg) !important;
+}
+.card .Daria-backOn {
+    transform: rotateY(0) !important;
+}
+
+
+
+.card .Oresto-frontOn {
+    transform: rotateY(-180deg) !important;
+}
+.card .Oresto-backOn {
+    transform: rotateY(0) !important;
+}
+
+
+
+.card .Milana-frontOn {
+    transform: rotateY(-180deg) !important;
+}
+.card .Milana-backOn {
+    transform: rotateY(0) !important;
+}
+
+
+
+.card .IrinaIvanovna-frontOn {
+    transform: rotateY(-180deg) !important;
+}
+.card .IrinaIvanovna-backOn {
+    transform: rotateY(0) !important;
+}
+
+/* классы появляющиеся при нажатии на кнопку */
